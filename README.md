@@ -44,20 +44,20 @@ To get a local copy up and running follow these simple steps.
 
 
 ### Install dependencies for both frontend and backend:
-   cd client
-   npm install
-   cd ../server
-   npm install
+   - cd client
+   - npm install
+   - cd ../server
+   - npm install
 
 ## Running the Application
 ## Start the backend server:
-   cd server
-   npm start
-   node index.js
+  - cd server
+  - npm start
+  - node index.js
 
 ## Start the frontend development server:
-   cd client
-   npm start
+  - cd client
+  - npm start
 
 Open your browser and navigate to http://localhost:3000.
 

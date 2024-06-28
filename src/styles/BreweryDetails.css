@@ -1,0 +1,146 @@
+/* BreweryDetails.css */
+:root {
+    --primary-color: #f39c12;
+    --secondary-color: #34495e;
+    --text-color: #2c3e50;
+    --background-color: #ecf0f1;
+    --card-background: #ffffff;
+  }
+  
+  .brewery-details-container {
+    background-image: url("https://in.images.search.yahoo.com/images/view;_ylt=Awr1QKT0Wn5mwogsJDG9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2ZjMWZjMDVjMDU0YTkxMjQ4NmU4ZDcwZTZmODM2MjYzBGdwb3MDNzYEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dimages%2Bbeer%2Bbar%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26nost%3D1%26tab%3Dorganic%26ri%3D76&w=2048&h=1372&imgurl=i.pinimg.com%2Foriginals%2Fff%2F69%2F7a%2Fff697a1706ee027b9d91650f250f8112.jpg&rurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F282178732889344714%2F&size=621.3KB&p=images+beer+bar&oid=fc1fc05c054a912486e8d70e6f836263&fr2=piv-web&fr=mcafee&tt=28+Chicago+Craft+Beer+Destinations%2C+2017+Edition+%7C+Beer+bar+design+...&b=61&ni=21&no=76&ts=&tab=organic&sigr=.2V6jdeY6.bd&sigb=bq6yQTcF99Oi&sigi=rz4Sy7P861U5&sigt=pGptjJ0aePTb&.crumb=MTLUJ5fBjTY&fr=mcafee&fr2=piv-web&type=E210IN885G0");
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--background-color);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .reviews-container {
+    margin-top: 1rem;
+  }
+  
+  .review-item {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .star-rating {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .review-item p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .review-item button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-item button:hover {
+    background-color: #c0392b;
+  }
+  
+  .review-form {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review-form select,
+  .review-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .review-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .review-form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-form button:hover {
+    background-color: #e67e22;
+  }
+  
+  @media (max-width: 600px) {
+    .brewery-details-container {
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
